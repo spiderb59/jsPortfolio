@@ -1,0 +1,24 @@
+{
+  "title": "Shital Mainali",
+  "intro": "Once upon a time...",
+  "messages": {
+    "left1": "Hello.",
+    "left2": "I'm Shital. I heard you are looking for someone with specific skills...",
+    "right1": "Who is this?",
+    "right2": "Tell me more. I'm interested."
+  },
+  "skills": {
+    "backend": ["Laravel", "React", "Django", "C#", "Vue JS"],
+    "frontend": ["Bootstrap", "SCSS", "Vanilla JS"]
+  },
+  "contact": {
+    "email": "hey@shitalmainali.com.np",
+    "social": ["Email", "Facebook", "WhatsApp"]
+  },
+  "cta": {
+    "coffee": "☕ Coffee",
+    "office": "🏬 Your Office",
+    "video": "💻 Video Chat",
+    "drink": "🍻 Grab a Drink"
+  }
+}

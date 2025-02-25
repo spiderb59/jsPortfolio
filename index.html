@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Shital Mainali</title>
     <script>
-   // Getting visitor IP to get country 
+   // Getting visitor IP to get country
 function getVisitorIP(callback) {
     fetch('https://api.ipify.org?format=json')
         .then(response => response.json())
@@ -18,7 +18,7 @@ function getCountryFromIP(ip) {
         .then(data => {
             const country = data.country.toLowerCase();
             if (country === "jp" || country === "japan") {
-                window.location.href = "/jp"; 
+                window.location.href = "/jp";
             } else {
                 window.location.href ="/en";
             }
@@ -26,4 +26,5 @@ function getCountryFromIP(ip) {
         .catch(error => console.error('Error fetching country:', error));
 }
 getVisitorIP(getCountryFromIP);
+</script>
 </html>
